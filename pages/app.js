@@ -144,8 +144,8 @@ function App() {
               <h2>Person 2 Chat :</h2>
               <label>Message Status :</label>
               <div>
-                <input type="radio" id="unseen" name="status" value="unseen" onChange={e => setLastMessageStatus(e.target.value)} checked={lastMessageStatus == 'unseen'} /> <label style={{fontWeight: 300}} for="unseen">Delivered</label>
-                <input type="radio" id="seen" name="status" value="seen" onChange={e => setLastMessageStatus(e.target.value)} checked={lastMessageStatus == 'seen'} /> <label style={{fontWeight: 300}} for="seen">Seen</label>
+                <input type="radio" id="unseen" name="status" value="unseen" onChange={e => setLastMessageStatus(e.target.value)} checked={lastMessageStatus == 'unseen'} /> <label style={{fontWeight: 300}}>Delivered</label>
+                <input type="radio" id="seen" name="status" value="seen" onChange={e => setLastMessageStatus(e.target.value)} checked={lastMessageStatus == 'seen'} /> <label style={{fontWeight: 300}}>Seen</label>
               </div>
               <label>Time :</label>
               <input type='text' placeholder={time.getHours() + ':'+time.getMinutes()} onChange={e => message2.time = e.target.value} />
