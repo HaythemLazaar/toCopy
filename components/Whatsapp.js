@@ -1,12 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import styles from '../../styles/whatsapp.module.css'
+import styles from '../styles/whatsapp.module.css'
 import ProfileImage from './ProfileImage'
-import topLeftImage from '../../whatsapp-images/whatsapp_iphone_top_left.png'
-import topRightImage from '../../whatsapp-images/whatsapp_iphone_top_right.png'
-import bottomFooter from '../../whatsapp-images/whatsapp_iphone_footer.png'
-import seen from '../../whatsapp-images/whatsapp_chat_msg_seen.png'
-import unseen from '../../whatsapp-images/whatsapp_chat_msg_unseen.png'
 
 
 function Whatsapp(props) {
@@ -14,8 +9,8 @@ function Whatsapp(props) {
     <div className={styles.whatsapp}>
         <StatusBar>
             <div className={styles.topLeft}>
-                <img src={topLeftImage} className={styles.statusImg}/>
-                <div className={styles.profileImage}>
+                <img src="/whatsapp-images/whatsapp_iphone_top_left.png" className={styles.statusImg}/>
+                <div className="profileImage">
                     <ProfileImage img={props.img}/> 
                 </div>
                 <Profile>
@@ -23,7 +18,7 @@ function Whatsapp(props) {
                     <h6>{props.details.status}</h6>
                 </Profile>
             </div>
-            <img src={topRightImage} className={styles.statusImg}/>
+            <img src="/whatsapp-images/whatsapp_iphone_top_right.png" className={styles.statusImg}/>
         </StatusBar>
         <div className={styles.messageDisplay}>
             <ul>
@@ -49,7 +44,7 @@ function Whatsapp(props) {
                                 <li key={i} className={styles.user2}>
                                     <div className={styles.messageContent}>{message.content}</div>
                                     <div className={styles.messageTime}>{message.time}</div>
-                                    <div className={styles.messageStatus}><img src={seen} /></div>
+                                    <div className={styles.messageStatus}><img src="/whatsapp-images/whatsapp_chat_msg_seen.png" /></div>
                                 </li>
                             )
                         }
@@ -58,7 +53,7 @@ function Whatsapp(props) {
                                 <li key={i} className={styles.user2}>
                                     <div className={styles.messageContent}>{message.content}</div>
                                     <div className={styles.messageTime}>{message.time}</div>
-                                    <div className={styles.messageStatus}><img src={unseen} /></div>
+                                    <div className={styles.messageStatus}><img src="/whatsapp-images/whatsapp_chat_msg_unseen.png" /></div>
                                 </li>
                             )
                         }
@@ -69,7 +64,7 @@ function Whatsapp(props) {
             </ul>
         </div>
         <MessageBar>
-            <img src={bottomFooter} />
+            <img src="/whatsapp-images/whatsapp_iphone_footer.png" />
         </MessageBar>
     </div>
   )
@@ -86,9 +81,6 @@ const StatusBar = styled.div`
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1.5px solid #c4c4c4c7;
-    .status-img{
-        height: 50px;
-    }
 `
 
 const MessageBar = styled.div`

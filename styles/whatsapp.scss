@@ -54,11 +54,11 @@
     align-items: center;
 }
 
-.messagesDisplay{
+.messageDisplay{
     display: flex;
     flex-direction: column;
     width: 425px;
-    background-image: url("../whatsapp-images/wh-back.png");
+    background-image: url("/whatsapp-images/wh-back.png");
     background-size: cover;
     background-position: center;
 }

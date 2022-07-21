@@ -1,10 +1,9 @@
 import React, { useState, useEffect, createRef} from 'react';
 import { useScreenshot, createFileName } from 'use-react-screenshot';
-import MessagingApp from './components/MessagingApp';
-import ProfileImage from './components/ProfileImage';
+import MessagingApp from '../components/MessagingApp';
+import ProfileImage from '../components/ProfileImage';
 import styles from '../styles/App.module.css';
 import styled from 'styled-components';
-import blank from '../whatsapp-images/blank.png'
 
 
 function App() {
@@ -51,7 +50,7 @@ function App() {
     status: 'Online'
   })
 
-  const [selectedImage, setSelectedImage] = useState(blank)
+  const [selectedImage, setSelectedImage] = useState('/whatsapp-images/blank.png')
 
   const [lastMessageStatus, setLastMessageStatus] = useState('unseen')
 
@@ -72,12 +71,13 @@ function App() {
     console.log(message.content)
     console.log(message.time)
     if(message.content != "" && message.time != ""){
-      console.log('efsefes2')
       const newMessages = [...messages]
       message.status = lastMessageStatus
       newMessages.push(message)
       setMessages(newMessages)
-      e.target.reset()
+      if (e.target.value != ''){
+        e.target.reset()
+      }
     }
   }
  
@@ -105,16 +105,16 @@ function App() {
 
   return (
     <div className={styles.App}>
-      <div className={styles.MessagingConfig}> 
+      <div className={styles.messagingConfig}> 
         <div className={styles.preview}>
           <div className={styles.container}>
             <div className={styles.profileDetails}>
-              <h2>Chat Settings :</h2>
+              <h2>General Settings :</h2>
               <label>Name :</label>
               <input type='text' value={details.name} onChange={changeName} />
               <label>Image :</label>
               <div className={styles.imgContainer}>
-                <div className={styles.profileImage}>
+                <div className="profileImage">
                   <ProfileImage img={selectedImage} />
                 </div>
                 <input type="file" name="profileImage" onChange={(event) => {
@@ -127,6 +127,7 @@ function App() {
             </div>
           </div>
         </div >
+        
         <div className={styles.chat}>
           <div className={styles.chatPerson}>
             <form onSubmit={e => addMessage(e,message1)}>
@@ -171,7 +172,7 @@ function App() {
             <MessagingApp messages={messages} details={details} appName={'w'} img={selectedImage}/>
           </div>
           <button className={styles.resetBtn} onClick={resetMessages}>Reset</button>
-          <button className={styles.screenshotBtn} onClick={getImage}>Take Screenshot</button>
+          <button className={styles.screenshotBtn} onClick={getImage}>Screenshot</button>
         </div>
       </div>
       

@@ -8,19 +8,19 @@ function MyApp({ Component, pageProps }) {
       <header> 
         <div>
           <Link href="/">
-            <Image src='/toCopy.png' alt="logo" height={100} width={100}/>
+            <img src='/toCopy.png' alt="logo" className='logo'/>
           </Link>
         </div>
-        <nav>
+        <nav className='navBar'>
           <ul>
             <Link href="/contact">
-              <li>Contact</li>
+              <li className='navElement'>Contact</li>
             </Link>
             <Link href="/about">
-              <li>About us</li>
+              <li className='navElement'>About us</li>
             </Link>
             <Link href="/app">
-              <li>Try Here</li>
+              <li><button className='navBarButton'>Try Here !</button></li>
             </Link>
           </ul>
         </nav>

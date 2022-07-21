@@ -1,0 +1,129 @@
+$primary-font: 'Josefin Sans', sans-serif;
+$desc-font: 'Poiret One', cursive;
+$color-1: #FFE7D6;
+$color-2: #000505;
+$color-3: #9191E9;
+$color-4: #FAF9F9;
+$color-5: #BEE3DB;
+
+
+.main{
+  background-color: $color-1;
+  font-family: $desc-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.heroLander{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  text-align: center;
+  margin-top: 40px;
+  h1{
+    margin: 20px 0;
+    font-family: $primary-font;
+    font-size: 3rem;
+  }
+  h3{
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin: 20px 0;
+  }
+}
+
+.prodShowcase{
+  margin-top: 50px;
+  margin-bottom: -80px;
+  border-radius: 12px;
+  border: 1px solid $color-2;
+  width: 80vw;
+  height: 600px;
+  background-color: $color-4;
+}
+
+.socialProof{
+  margin-top: 120px;
+  font-family: $desc-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+
+.card{
+  max-width: 400px;
+  h2{
+    font-family: $primary-font;
+    margin: 10px 0;
+  }
+  h3{
+    font-weight: 500;
+    margin: 20px 0;
+  }
+}
+
+.cardImg{
+  height: 400px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid $color-2;
+  margin: 20px 0;
+}
+
+.lastReminder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;
+  .reminder{
+    background-color: $color-5;
+    border-radius: 12px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    h1{
+      margin: 20px 0;
+      font-family: $primary-font;
+      font-size: 3rem;
+    }
+  }
+}
+
+.bigCTA{
+  font-size: 1.3rem;
+  padding: 10px 40px;
+  margin: 50px 0;
+}
+
+.bigCTA:hover{
+  background-color: #FAF9F9;
+  color: #000505;
+  border: 1px solid #000505;
+  padding: 9px 39px;
+}
+
+
+.footer{
+  margin-top: 150px;
+  background-color: $color-3;
+  height: 50vh;
+}
