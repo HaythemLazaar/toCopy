@@ -23,7 +23,7 @@ export default function Home() {
       <section className={styles.socialProof}>
         <div className={styles.heroLander}>
           <h1>Online tool that increases your store/business metrics</h1>
-          <h3>We all know that it's not easy to retain people to your product and we want that CRO. Well good for us this tool increases Customer Conversion Rate. </h3>
+          <h3>We all know that it&apos;s not easy to retain people to your product and we want that CRO. Well good for us this tool increases Customer Conversion Rate. </h3>
         </div>
         <div className={styles.cards}>
           <div className={styles.card}>
