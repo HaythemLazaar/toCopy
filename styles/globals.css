@@ -29,6 +29,12 @@ header{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #999999;
+  position: fixed;
+  width: 100vw;
+  background-color: #FAF9F9;
+  top: 0;
+  z-index: 5;
+  padding: 0 20px;
 }
 
 .profileImage{
