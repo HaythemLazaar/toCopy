@@ -26,6 +26,8 @@ function MyApp({ Component, pageProps }) {
         </nav>
       </header>
       <Component {...pageProps} />
+      <footer>
+      </footer>
     </>
   )
 }

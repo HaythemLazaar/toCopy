@@ -45,6 +45,10 @@ $color-5: #BEE3DB;
   width: 80vw;
   height: 600px;
   background-color: $color-4;
+  background-image: url("/toolCap.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .socialProof{
@@ -122,8 +126,3 @@ $color-5: #BEE3DB;
 }
 
 
-.footer{
-  margin-top: 150px;
-  background-color: $color-3;
-  height: 50vh;
-}

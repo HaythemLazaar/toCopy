@@ -103,3 +103,9 @@ button:hover, input[type=submit]:hover{
 .navBarButton{
   margin-inline: 20px;
 }
+
+footer{
+  margin-top: 150px;
+  background-color: #9191E9;
+  height: 50vh;
+}
