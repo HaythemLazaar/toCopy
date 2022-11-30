@@ -1,0 +1,20 @@
+.contactHero{
+    background-color: #BEE3DB;
+    margin-top: 100px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: -150px;
+    h1{
+        margin-bottom: 1em;
+        font-size: 3rem;
+    }
+    button{
+        width: 100%;
+        align-self: flex-end;
+    }
+}
+

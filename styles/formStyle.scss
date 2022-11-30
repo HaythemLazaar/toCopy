@@ -1,0 +1,24 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poiret One', cursive;
+    label{
+        margin: 1em 0;
+        font-size: 1.3rem;
+    }
+    input{
+        height: 3em;
+        width: 25em;
+        border-radius: 12px;
+        border: none;
+        padding: 8px;
+    }
+    textarea{
+        height: 10em;
+        width: 25em;
+        border-radius: 12px;
+        border: none;
+        padding: 8px;
+        margin-bottom: 2em;
+    }
+}
