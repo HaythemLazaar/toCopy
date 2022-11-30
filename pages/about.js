@@ -17,7 +17,7 @@ function About() {
           </p>
         </div>
         <div className={styles.aboutCard}>
-            <Image src='/chat.png' width={531} height={292}/> 
+            <Image alt="social media conversation" src='/chat.png' width={531} height={292}/> 
         </div>
         <div className={styles.toolCreator}>
           <h1 className={styles.toolAbout}>
