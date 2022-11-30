@@ -26,7 +26,7 @@
   font-weight: 500;
   font-size: 1.3rem;
   margin: 20px 0;
-  max-width: 480px;
+  max-width: 580px;
 }
 
 .prodShowcase {
@@ -37,7 +37,7 @@
   width: 80vw;
   height: 600px;
   background-color: #BEE3DB;
-  background-image: url("/toolCap.gif");
+  background-image: url("/lander-image.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

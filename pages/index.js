@@ -9,7 +9,7 @@ export default function Home() {
         <div className={styles.heroLander}>
           <h3>#1 Tool to Create Fake Social Media Conversations</h3>
           <h1>Highlight People Talking About your Product/Project</h1>
-          <h3>Easiest way to convert reviews into people reacting<br /> to your product and experience.</h3>
+          <h3>Easiest way to convert reviews into people reacting to your product experience through social media conversations.</h3>
         </div>      
         <div className={styles.prodShowcase}>
         </div>

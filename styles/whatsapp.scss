@@ -10,7 +10,7 @@
         margin: 5px;
         box-shadow: 0px 2px 3px 0px #c2bdb7;
         border-radius: 8px;
-        max-width: 75%;
+        max-width: 55%;
     }
 }
 
@@ -66,8 +66,10 @@
 .user1, .user2{
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
     .messageContent{
         font-size: 14px;
+        max-width: 150px;
     }
     .messageTime{
         display: flex;
@@ -76,8 +78,8 @@
         color: rgba(0,0,0,.45);
         font-size: 11px;
         letter-spacing: 0.6px;
-        padding-left: 12px;
-        
+        padding-left: 10px;
+        margin-bottom: -4px;
     }
 }
 
