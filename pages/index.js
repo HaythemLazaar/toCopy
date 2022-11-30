@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
@@ -6,11 +5,6 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>toCopy</title>
-        <meta name="description" content="Tool to make fake social media messages and chats" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <main className={styles.main}>
         <div className={styles.heroLander}>
           <h3>#1 Tool to Create Fake Social Media Conversations</h3>
