@@ -82,12 +82,26 @@ $color-5: #BEE3DB;
   }
 }
 
-.cardImg{
+.cardImg1{
+  background-color: $color-5;
+  background-image: url("/review3.png");
+}
+
+.cardImg2{
+  background-color: $color-5;
+  background-image: url("/review4.png");
+}
+
+.cardImg1,
+.cardImg2{
   height: 400px;
   width: 100%;
   border-radius: 12px;
   border: 1px solid $color-2;
   margin: 20px 0;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .lastReminder{

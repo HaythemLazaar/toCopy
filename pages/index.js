@@ -21,12 +21,12 @@ export default function Home() {
         </div>
         <div className={styles.cards}>
           <div className={styles.card}>
-            <div className={styles.cardImg}></div>
+            <div className={styles.cardImg1}></div>
             <h2>Client Trust</h2>
             <h3>Seeing other people satisfied is the last touch that will convert the client.</h3>
           </div>
           <div className={styles.card}>
-            <div className={styles.cardImg}></div>
+            <div className={styles.cardImg2}></div>
             <h2>Client Retention</h2>
             <h3>Since we created trust, now your brand is in the clients plans.</h3>
           </div>
