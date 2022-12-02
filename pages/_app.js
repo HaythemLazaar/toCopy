@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import '../styles/globals.css'
 import { NavBar } from '../components/navbar'
-import { Footer } from '../components/footer'
+import { Footer } from '../components/Footer'
 import { Analytics } from '@vercel/analytics/react';
 
 
