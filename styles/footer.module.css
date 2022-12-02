@@ -1,0 +1,28 @@
+.foot {
+  margin-top: 150px;
+  background-color: #9191E9;
+  font-family: "Josefin Sans", sans-serif;
+  color: #FAF9F9;
+  height: 50vh;
+  padding: 5rem 8rem;
+  padding-bottom: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.foot .logo {
+  width: 6rem;
+  height: auto;
+  background-color: #FAF9F9;
+}
+.foot .projectDesc {
+  font-size: 1.4rem;
+}
+.foot hr {
+  margin-top: 2rem;
+}
+.foot .cp {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}

@@ -26,7 +26,7 @@ function About() {
           <p className={styles.toolDesc}>
             I am a Software Engineering student, passion for creating apps for the web.<br/>
             You can find the project repo at 
-            <a href='https://github.com/HaythemLazaar/social-media-chat-generator' target='blank'><Image src='/github.svg' width={24} height={24}/></a>
+            <a href='https://github.com/HaythemLazaar/toCopy' target='blank'><Image src='/github.svg' width={24} height={24} alt="github icon"/></a>
           </p>
         </div>
       </div>

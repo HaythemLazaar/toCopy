@@ -114,3 +114,11 @@ footer{
   background-color: #9191E9;
   height: 50vh;
 }
+
+@media (min-width: 768px) {
+  .navbar{
+    visibility: hidden;
+    background-color: black;
+  }
+ 
+}

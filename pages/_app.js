@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import '../styles/globals.css'
 import { NavBar } from '../components/navbar'
+import { Footer } from '../components/footer'
 import { Analytics } from '@vercel/analytics/react';
 
 
@@ -14,8 +15,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <NavBar />
       <Component {...pageProps} />
-      <footer>
-      </footer>
+      <Footer />
       <Analytics />
     </>
   )
