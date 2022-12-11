@@ -9,7 +9,7 @@ export default function Home() {
         <div className={styles.heroLander}>
           <h3>#1 Tool to Create Fake Social Media Conversations</h3>
           <h1>Highlight People Talking About your Product/Project</h1>
-          <h3>Easiest way to convert reviews into people reacting to your product experience through social media conversations.</h3>
+          <h3>Transform customer reviews into real-looking conversations with our app. With just a few clicks, you can generate fake chats that showcase your products and services in a natural and engaging way.</h3>
         </div>      
         <div className={styles.prodShowcase}>
         </div>
@@ -17,18 +17,18 @@ export default function Home() {
       <section className={styles.socialProof}>
         <div className={styles.heroLander}>
           <h1>Online tool that increases your store/business metrics</h1>
-          <h3>We all know that it&apos;s not easy to retain people to your product and we want that CRO. Well good for us this tool increases Customer Conversion Rate. </h3>
+          <h3>Make your customer reviews work harder for your business.<br/>By converting reviews into engaging and realistic conversations, you can create social proof that will improve your conversion rate, customer retention, and help your business to grow and succeed.</h3>
         </div>
         <div className={styles.cards}>
           <div className={styles.card}>
             <div className={styles.cardImg1}></div>
-            <h2>Client Trust</h2>
-            <h3>Seeing other people satisfied is the last touch that will convert the client.</h3>
+            <h2>Social Proof</h2>
+            <h3>By transforming customer reviews into compelling conversations, you can create social proof that will convince potential customers to buy from your website.</h3>
           </div>
           <div className={styles.card}>
             <div className={styles.cardImg2}></div>
             <h2>Client Retention</h2>
-            <h3>Since we created trust, now your brand is in the clients plans.</h3>
+            <h3>You can create a more personal and engaging shopping experience for your customers, and show them that you value their feedback and opinions.</h3>
           </div>
         </div>    
       </section>

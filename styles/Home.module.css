@@ -26,7 +26,7 @@
   font-weight: 500;
   font-size: 1.3rem;
   margin: 20px 0;
-  max-width: 580px;
+  max-width: 640px;
 }
 
 .prodShowcase {
@@ -64,11 +64,13 @@
 }
 .card h2 {
   font-family: "Josefin Sans", sans-serif;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .card h3 {
   font-weight: 500;
   margin: 20px 0;
+  line-height: 1.5ch;
+  max-width: 22ch;
 }
 
 .cardImg1 {
