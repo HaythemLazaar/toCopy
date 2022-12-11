@@ -11,9 +11,9 @@ function About() {
             toCopy is a marketing tool, creating social proof for the customer.
           </h1>
           <p className={styles.toolDesc}>
-            Need social proof to show your customers you can handle them? Copy is the ultimate tool to create social interactions 
+            Need social proof to show your customers you can handle them? toCopy is the ultimate tool to create social interactions 
             that increases client trust and retention.<br />
-            toCopy provides ready-made assets to increase customer loyalty. 
+            toCopy provides ready-made assets to to showcase reviews. 
           </p>
         </div>
         <div className={styles.aboutCard}>
