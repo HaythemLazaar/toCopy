@@ -33,7 +33,7 @@ header{
   background-color: #FAF9F9;
   top: 0;
   z-index: 5;
-  padding: 0 20px;
+  padding: 0 8rem;
 }
 
 .profileImage{
@@ -80,8 +80,10 @@ button:hover, input[type=submit]:hover{
 .logo{
   max-width: 100px;
   height: auto;
-  margin: 20px 50px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navBar{
