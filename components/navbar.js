@@ -10,8 +10,12 @@ export const NavBar = () => {
 
   const toggleMobileMenu = () => {
     if(menu == 'closed') {
+      document.getElementById('overlay').style.display = 'block'
       setMenu('open')
-    }else setMenu('closed')
+    }else {
+      document.getElementById('overlay').style.display = 'none'
+      setMenu('closed')
+    }
   }
 
   const router = useRouter()
