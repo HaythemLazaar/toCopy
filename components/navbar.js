@@ -23,7 +23,7 @@ export const NavBar = () => {
   useEffect(() => {
     const hide = (e) => {
       console.log(e)
-      if (e.path[1] !== menuRef.current) setMenu('closed')
+      if (e.path[1] !== menuRef.current) toggleMobileMenu()
     }
     document.body.addEventListener("click", hide)
 
