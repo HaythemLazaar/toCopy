@@ -22,6 +22,11 @@ export const NavBar = () => {
               </Link>
             </ul>
           </nav>
+          <nav className='navBar-mobile'>
+            <div className='menu'>
+              <Image src='/icon-menu.svg' className='openMenu' alt="logo" width="40" height="20" />
+            </div>
+          </nav>
         </header>
         )
     }else{
@@ -44,6 +49,12 @@ export const NavBar = () => {
                 <li><button className='navBarButton'>Try Here !</button></li>
               </Link>
             </ul>
+          </nav>
+          <nav className='navBar-mobile'>
+            <div className='menu'>
+              <Image src='/icon-menu.svg' className='openMenu' alt="Open Nav Bar" width="40" height="20" />
+              <Image src='/icon-menu-close.svg' className='closeMenu' alt="Close Nav Bar" width="30" height="25" />
+            </div>
           </nav>
         </header>
   )}}

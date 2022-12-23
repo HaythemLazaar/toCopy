@@ -117,10 +117,27 @@ footer{
   height: 50vh;
 }
 
-@media (min-width: 768px) {
-  .navbar{
-    visibility: hidden;
+.navBar-mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  header{
+    padding: 0 4rem;
+  }
+
+  .navBar{
+    display: none;
     background-color: black;
   }
+
+  .navBar-mobile{
+    display: block;
+  }
+
+  .closeMenu{
+    display: none;
+  }
+  
  
 }
