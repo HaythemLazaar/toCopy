@@ -96,6 +96,7 @@ button:hover, input[type=submit]:hover{
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .navElement{
@@ -121,9 +122,21 @@ footer{
   display: none;
 }
 
+.menu{
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   header{
     padding: 0 4rem;
+  }
+
+  .menu{
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 2.4rem;
+    right: 4rem;
   }
 
   .navBar{
@@ -131,13 +144,53 @@ footer{
     background-color: black;
   }
 
+
+
   .navBar-mobile{
-    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    height: 100vh;
+    width: 50vw;
+    background-color: #9191E9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
   }
 
-  .closeMenu{
-    display: none;
+  .navBar-mobile ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    font-size: 1.5rem;
   }
   
+  .navElement-mobile{
+    padding-inline: 3rem;
+  }
+
+  .navBarButton-mobile{
+    padding: 1rem;
+    margin: 0;
+    background-color: #FAF9F9;
+    color: #000505;
+    font-size: 1.5rem;
+    height: auto;
+  }
+
+  .navBarButton-mobile:hover {
+    padding: 1rem;
+    margin: 0;
+    background-color: #FAF9F9;
+    color: #000505;
+    font-size: 1.5rem;
+    height: auto;
+  }
  
 }
