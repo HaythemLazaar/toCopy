@@ -17,13 +17,17 @@ export const NavBar = () => {
       setMenu('closed')
     }
   }
+  const closeMobileMenu = () => {
+    document.getElementById('overlay').style.display = 'none'
+    setMenu('closed')
+  }
 
   const router = useRouter()
 
   useEffect(() => {
     const hide = (e) => {
       console.log(e)
-      if (e.path[1] !== menuRef.current) toggleMobileMenu()
+      if (e.path[1] !== menuRef.current) closeMobileMenu()
     }
     document.body.addEventListener("click", hide)
 
