@@ -153,3 +153,9 @@ $color-5: #BEE3DB;
     background-color: $color-4;
     border: 1px solid $color-2;
 }
+
+@media only screen and (max-width: 800px){
+    .App{
+        display: none;
+    }
+}

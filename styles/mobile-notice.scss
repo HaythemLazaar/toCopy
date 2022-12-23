@@ -1,0 +1,22 @@
+
+.mobileNotice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFE7D6;
+    height: 40vh;
+    padding: 2rem;
+
+}
+
+
+.container{
+    padding-top: 10vh;
+    padding-inline: 4rem;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
