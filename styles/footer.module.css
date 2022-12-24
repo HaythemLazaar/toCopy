@@ -11,9 +11,14 @@
   gap: 2rem;
 }
 .foot .logo {
-  width: 6rem;
+  max-width: 10rem;
   height: auto;
   background-color: #FAF9F9;
+  padding: 1rem;
+}
+.foot .logo img {
+  width: 100%;
+  height: auto;
 }
 .foot .projectDesc {
   font-size: 1.4rem;

@@ -18,9 +18,14 @@ $color-5: #BEE3DB;
     flex-direction: column;
     gap: 2rem;
     .logo{
-        width: 6rem;
+        max-width: 10rem;
         height: auto;
         background-color: $color-4;
+        padding: 1rem;
+        img{
+            width: 100%;
+            height: auto;
+        }
     }
     .projectDesc{
         font-size: 1.4rem;

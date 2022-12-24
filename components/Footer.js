@@ -5,10 +5,10 @@ export const Footer = () => {
     return(
         <div className={styles.foot}>
             <div className={styles.logo}>
-                <Image src='/toCopy.png' alt="logo" width="100" height="40" />
+                <Image src='/toCopy.png' alt="logo" width="120" height="60" />
             </div>
             <div className={styles.projectDesc}>
-            toCopy is a tool to copy reviews into social media conversation.
+            This is a tool to copy reviews into social media conversation.
             </div>
             <hr />
             <div className={styles.cp}>
