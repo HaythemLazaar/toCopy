@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import styles from '../styles/whatsapp.module.css'
 import ProfileImage from './ProfileImage'
+import Image from 'next/image'
 
 
 function Whatsapp(props) {
@@ -9,7 +10,7 @@ function Whatsapp(props) {
     <div className={styles.whatsapp}>
         <StatusBar>
             <div className={styles.topLeft}>
-                <img src="/whatsapp-images/whatsapp_iphone_top_left.png" className={styles.statusImg}/>
+                <img src="/whatsapp-images/whatsapp_iphone_top_left.png" className={styles.statusImg} alt="Whatsapp header"/>
                 <div className="profileImage">
                     <ProfileImage img={props.img}/> 
                 </div>
@@ -18,7 +19,7 @@ function Whatsapp(props) {
                     <h6>{props.details.status}</h6>
                 </Profile>
             </div>
-            <img src="/whatsapp-images/whatsapp_iphone_top_right.png" className={styles.statusImg}/>
+            <img src="/whatsapp-images/whatsapp_iphone_top_right.png" className={styles.statusImg}  alt="Whatsapp header"/>
         </StatusBar>
         <div className={styles.messageDisplay}>
             <ul>
@@ -64,7 +65,7 @@ function Whatsapp(props) {
             </ul>
         </div>
         <MessageBar>
-            <img src="/whatsapp-images/whatsapp_iphone_footer.png" />
+            <img src="/whatsapp-images/whatsapp_iphone_footer.png" alt="Whatsapp message bar"/>
         </MessageBar>
     </div>
   )

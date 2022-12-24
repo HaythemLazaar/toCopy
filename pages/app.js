@@ -81,11 +81,17 @@ function App() {
       }
     }
   }
+
+  const [view, setView] = useState(false)
+
+  const changeView = () => {
+    setView(!view)
+    document.querySelector('.App_App__ASmOF').style.display = 'flex'
+  }
  
   useEffect( () => {
     console.log('Updated Messages !')
-  }
-  ,[messages])
+  },[messages])
 
   const ref = createRef()
   const [screenshot, takeScreenshot] = useScreenshot()
@@ -103,6 +109,7 @@ function App() {
     const newMessages = []
     setMessages(newMessages)
   }
+  //style={{display: view ? 'none' : 'flex'}}
 
   return (
     <>
@@ -178,7 +185,7 @@ function App() {
           </div>
         </div>
       </div>
-      <MobileNotice></MobileNotice>
+      {view ? '' : <MobileNotice view={changeView}></MobileNotice>}
     </>
     
   );

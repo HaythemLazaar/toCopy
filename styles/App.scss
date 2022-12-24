@@ -151,11 +151,14 @@ $color-5: #BEE3DB;
     width: 100px;
     margin-right: 20px;
     background-color: $color-4;
-    border: 1px solid $color-2;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 970px){
     .App{
         display: none;
+        flex-direction: column;
+        align-items: center;
+
     }
+
 }

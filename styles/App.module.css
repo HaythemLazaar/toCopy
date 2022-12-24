@@ -138,11 +138,12 @@
   width: 100px;
   margin-right: 20px;
   background-color: #FAF9F9;
-  border: 1px solid #000505;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 970px) {
   .App {
     display: none;
+    flex-direction: column;
+    align-items: center;
   }
 }
