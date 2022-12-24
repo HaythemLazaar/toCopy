@@ -12,8 +12,9 @@
 .contactHero h1 {
   margin-bottom: 1em;
   font-size: 3rem;
+  text-align: center;
 }
 .contactHero button {
   width: 100%;
-  align-self: flex-end;
+  align-self: center;
 }

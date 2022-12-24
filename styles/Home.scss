@@ -67,6 +67,7 @@ $color-5: #BEE3DB;
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
+  gap: 4rem;
 }
 
 
@@ -190,6 +191,10 @@ $color-5: #BEE3DB;
   .bigCTA{
     font-size: 1rem;
     padding: 0.8rem 2rem;
+  }
+
+  .lineBreak{
+    display: none;
   }
 
 }

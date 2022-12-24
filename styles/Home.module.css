@@ -57,6 +57,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
+  gap: 4rem;
 }
 
 .card {
@@ -170,5 +171,8 @@
   .bigCTA {
     font-size: 1rem;
     padding: 0.8rem 2rem;
+  }
+  .lineBreak {
+    display: none;
   }
 }

@@ -17,7 +17,7 @@ export default function Home() {
       <section className={styles.socialProof}>
         <div className={styles.heroLander}>
           <h1>Online tool that increases your store/business metrics</h1>
-          <h3>Make your customer reviews work harder for your business.<br/>By converting reviews into engaging and realistic conversations, you can create social proof that will improve your conversion rate, customer retention, and help your business to grow and succeed.</h3>
+          <h3>Make your customer reviews work harder for your business. <br className={styles.lineBreak}/>By converting reviews into engaging and realistic conversations, you can create social proof that will improve your conversion rate, customer retention, and help your business to grow and succeed.</h3>
         </div>
         <div className={styles.cards}>
           <div className={styles.card}>
