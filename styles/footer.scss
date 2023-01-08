@@ -40,3 +40,9 @@ $color-5: #BEE3DB;
     }
 
 }
+
+@media (max-width: 1000px){
+    .foot{
+        padding: 5rem 3rem;
+    }
+}

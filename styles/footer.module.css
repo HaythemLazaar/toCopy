@@ -31,3 +31,9 @@
   gap: 2rem;
   align-items: center;
 }
+
+@media (max-width: 1000px) {
+  .foot {
+    padding: 5rem 3rem;
+  }
+}
