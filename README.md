@@ -10,7 +10,7 @@ toCopy is a tool to copy reviews into social media conversation.
 
 
 ## Project Inspiration & Backstory
-This is a hobby project of mine, the idea behind it was when learning how marketers create social proof for their products. One way was to display conversations about the proudct, so I hopped onto it.
+This is a hobby project of mine, the idea behind it was when learning how marketers create social proof for their products. One way was to display conversations about the product, so I hopped onto it.
 
 
 ## Tech Stack
