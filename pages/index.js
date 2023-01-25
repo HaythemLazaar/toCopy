@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+      <Link href="https://www.producthunt.com/posts/tocopy?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tocopy" target="_blank"><Image src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=376593&theme=light" alt="toCopy - Convert&#0032;reviews&#0032;into&#0032;conversations&#0046; | Product Hunt" style={{width: 250 + 'px', height: 54 + 'px'}} width="250" height="54" /></Link>
         <div className={styles.heroLander}>
           <h3>#1 Tool to Create Fake Social Media Conversations</h3>
           <h1>Highlight People Talking About your Product/Project</h1>
