@@ -3,15 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'api.producthunt.com',
-        port: '',
-        pathname: '/widgets/**',
-      }
-    ]
-  }
+    dangerouslyAllowSVG: true,
+    domains: ['api.producthunt.com'],
+  },
 }
 
 module.exports = nextConfig

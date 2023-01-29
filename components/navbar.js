@@ -26,8 +26,9 @@ export const NavBar = () => {
 
   useEffect(() => {
     const hide = (e) => {
-      console.log(e)
-      if (e.path[1] !== menuRef.current) closeMobileMenu()
+      console.log(e.target)
+      //menuRef.current
+      if (e.target == document.getElementById('overlay')) closeMobileMenu()
     }
     document.body.addEventListener("click", hide)
 
